@@ -23,7 +23,7 @@ sap.ui.define([
 			const oModel = new JSONModel(oData);
 			this.setModel(oModel);
 
-			// Cria-se uma view baseada na url
+			// create the views based on the url/hash
 			this.getRouter().initialize();
 		}
 	});
