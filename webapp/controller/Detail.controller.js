@@ -9,7 +9,7 @@ sap.ui.define([
     return Controller.extend("ui5.walkthrough.controller.Detail", {
         onInit() {
             const oViewModel = new JSONModel({
-				currency: "EUR"
+				currency: "R$"
 			});
 			this.getView().setModel(oViewModel, "view");
 

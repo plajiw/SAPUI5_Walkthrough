@@ -4,7 +4,7 @@
 >
 	<Dialog
 		id="helloDialog"
-		title="Hello {/recipient/name}"
+		title="Olá {/recipient/name}"
 	>
 		<content>
 			<core:Icon

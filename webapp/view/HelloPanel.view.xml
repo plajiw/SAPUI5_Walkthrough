@@ -9,6 +9,7 @@
         width="auto"
         expandable="{device>/system/phone}"
         expanded="{= !${device>/system/phone} }"
+		accessibleRole="Region"
     >
         <content>
             <Button
@@ -29,7 +30,7 @@
                 width="60%"
             />
             <FormattedText
-                htmlText="Hello {/recipient/name}"
+                htmlText="Olá {/recipient/name}"
                 class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"
             />
         </content>
