@@ -17,11 +17,14 @@ sap.ui.define([
 			// set data model on view
 			const oData = {
 				recipient: {
-					name: "Mundo"
+					name: "World"
 				}
 			};
 			const oModel = new JSONModel(oData);
 			this.setModel(oModel);
+
+			// Cria-se uma view baseada na url
+			this.getRouter().initialize();
 		}
 	});
 });

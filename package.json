@@ -5,10 +5,10 @@
   "author": "SAP SE",
   "description": "UI5 Demo App - Walkthrough Tutorial",
   "scripts": {
-    "start": "ui5 serve -o index.html"
+    "start": "ui5 serve -o test/mockServer.html"
   },
   "devDependencies": {
     "@ui5/cli": "^4",
-    "ui5-middleware-simpleproxy": "^3.4.2"
+    "ui5-middleware-simpleproxy": "^3"
   }
 }

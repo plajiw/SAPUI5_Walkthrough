@@ -5,7 +5,14 @@ https://sapui5.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39
 * Controller - Gerencia as Models, Views e determina os eventos
 
 Dentro do manifest.json,há toda a lógica de conexão;
-como funciona em detalhes as declarações
+Revisar: Como funciona em detalhes as declarações e conexões internas
 
 Data Binding
-{/recipient/name}
+
+Dúvidas em relação ao funcionamento dos testes:
+http://localhost:8080/test/testsuite.qunit.html
+
+Debug
+Ctrl Shift Alt / Option S 
+
+Route: classe de roteador (Router) do SAPUI5 para carregar as páginas e atualizar a URL automaticamente

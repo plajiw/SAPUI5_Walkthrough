@@ -3,7 +3,5 @@ sap.ui.define([
 ], (Controller) => {
 	"use strict";
 
-	return Controller.extend("ui.walkthrough.controller.App", {
-
-	});
+	return Controller.extend("ui5.walkthrough.controller.App", {});
 });
